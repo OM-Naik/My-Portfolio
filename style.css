@@ -447,7 +447,7 @@ article .icon {
 
 #projects {
   position: relative;
-  animation: fade-in 1s ease-in-out;
+  animation: slider-right 1s ease-in-out;
   animation-timeline: view();
   animation-range-start: 10px;
   animation-range-end: 600px;
