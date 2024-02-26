@@ -165,6 +165,14 @@
     animation-range-end: 500px;
   }
 
+  #projects {
+  position: relative;
+  animation: fade-in 1s ease-in-out;
+  animation-timeline: view();
+  animation-range-start: 10px;
+  animation-range-end: 600px;
+}
+
   article:nth-child(1){
     animation: slider-left 1s ease-in-out;
     animation-timeline: view();
