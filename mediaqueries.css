@@ -173,11 +173,6 @@
   animation-range-end: 600px;
 }
 
-  article {
-    overflow-x: hidden;
-    position: relative;
-  }
-
   article:nth-child(1){
     animation: slider-left 1s ease-in-out;
     animation-timeline: view();
@@ -218,5 +213,33 @@
     animation-timeline: view();
     animation-range-start: 0px;
     animation-range-end: 400px;
+  }
+
+    @keyframes slider-right {
+
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+
+    to {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+
+  }
+
+  @keyframes slider-left {
+
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+
+    to {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+
   }
 }
