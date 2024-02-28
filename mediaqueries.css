@@ -173,6 +173,11 @@
   animation-range-end: 600px;
 }
 
+  article {
+    overflow-x: hidden;
+    position: relative;
+  }
+
   article:nth-child(1){
     animation: slider-left 1s ease-in-out;
     animation-timeline: view();
