@@ -161,15 +161,15 @@
     position: relative;
     animation: fade-in 1s ease-in-out;
     animation-timeline: view();
-    animation-range-start: 10px;
-    animation-range-end: 500px;
+    animation-range-start: 0px;
+    animation-range-end: 600px;
   }
 
   #projects {
   position: relative;
   animation: fade-in 1s ease-in-out;
   animation-timeline: view();
-  animation-range-start: 10px;
+  animation-range-start: 0px;
   animation-range-end: 600px;
 }
 
