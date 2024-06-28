@@ -66,6 +66,13 @@ a:hover {
   cursor: default;
 }
 
+.omlogo{
+  position: relative;
+  width: 50px;
+  top: 15px;
+  margin-right: 10px;
+}
+
 /* HAMBURGER MENU */
 
 #hamburger-nav {

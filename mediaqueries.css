@@ -19,6 +19,11 @@
     display: none;
   }
 
+  .omlogo {
+    width: 40px;
+    top: 10px;
+  }
+
   #hamburger-nav {
     display: flex;
   }
@@ -72,6 +77,12 @@
   #contact,
   footer {
     height: 40vh;
+  }
+
+
+  .omlogo {
+    width: 35px;
+    top: 10px;
   }
 
   #profile {
@@ -153,6 +164,12 @@
 }
 
 @media screen and (max-width: 525px) and (min-width:315px) {
+
+  .omlogo {
+    width: 30px;
+    top: 7px;
+  }
+
   #idea {
     font-size: 5.88vw;
   }
@@ -161,19 +178,19 @@
     position: relative;
     animation: fade-in 1s ease-in-out;
     animation-timeline: view();
-    animation-range-start: 0px;
-    animation-range-end: 600px;
+    animation-range-start: 10px;
+    animation-range-end: 500px;
   }
 
   #projects {
-  position: relative;
-  animation: fade-in 1s ease-in-out;
-  animation-timeline: view();
-  animation-range-start: 0px;
-  animation-range-end: 600px;
-}
+    position: relative;
+    animation: fade-in 1s ease-in-out;
+    animation-timeline: view();
+    animation-range-start: 10px;
+    animation-range-end: 600px;
+  }
 
-  article:nth-child(1){
+  article:nth-child(1) {
     animation: slider-left 1s ease-in-out;
     animation-timeline: view();
     animation-range-start: 0px;
@@ -215,9 +232,10 @@
     animation-range-end: 400px;
   }
 
-    @keyframes slider-right {
+  @keyframes slider-right {
 
-    0% {
+    0%,
+    70% {
       transform: translateY(100%);
       opacity: 0;
     }
@@ -231,7 +249,8 @@
 
   @keyframes slider-left {
 
-    0% {
+    0%,
+    70% {
       transform: translateY(100%);
       opacity: 0;
     }
