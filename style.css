@@ -73,6 +73,11 @@ a:hover {
   margin-right: 10px;
 }
 
+img{
+  user-select: none;
+  pointer-events: none;
+}
+
 /* HAMBURGER MENU */
 
 #hamburger-nav {
