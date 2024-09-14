@@ -75,7 +75,6 @@ a:hover {
 
 img{
   user-select: none;
-  pointer-events: none;
 }
 
 /* HAMBURGER MENU */
@@ -425,7 +424,7 @@ section {
 .experience-sub-title {
   color: rgb(85, 85, 85);
   font-weight: 600;
-  font-size: 1.75rem;
+  font-size: 1.2rem;
   margin-bottom: 2rem;
 }
 
@@ -486,8 +485,7 @@ article .icon {
 
 .project-img {
   border-radius: 2rem;
-  width: 50%;
-  height: 50%;
+  width: 100%;
 }
 
 .project-title {
