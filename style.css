@@ -66,14 +66,14 @@ a:hover {
   cursor: default;
 }
 
-.omlogo{
+.omlogo {
   position: relative;
   width: 50px;
   top: 15px;
   margin-right: 10px;
 }
 
-img{
+img {
   user-select: none;
 }
 
@@ -214,7 +214,7 @@ section {
   height: 400px;
   position: absolute;
   opacity: 0;
-  animation: scaleIn 5s infinite cubic-bezier(.36, .11, .89, .32);
+  animation: scaleIn both 5s infinite cubic-bezier(.36, .11, .89, .32);
 }
 
 @keyframes scaleIn {
@@ -332,7 +332,7 @@ section {
 
 #about {
   position: relative;
-  animation: fade-in 1s ease-in-out;
+  animation: fade-in both 1s ease-in-out;
   animation-timeline: view();
   animation-range-start: 10px;
   animation-range-end: 600px;
@@ -401,7 +401,7 @@ section {
 
 #experience {
   position: relative;
-  animation: slider-left 1s ease-in-out;
+  animation: slider-left both 1s ease-in-out;
   animation-timeline: view();
   animation-range-start: 10px;
   animation-range-end: 600px;
@@ -458,7 +458,7 @@ article .icon {
 
 #projects {
   position: relative;
-  animation: slider-right 1s ease-in-out;
+  animation: slider-right both 1s ease-in-out;
   animation-timeline: view();
   animation-range-start: 10px;
   animation-range-end: 600px;
@@ -505,7 +505,7 @@ article .icon {
   justify-content: center;
   flex-direction: column;
   height: 70vh;
-  animation: slider-up 1s ease-in-out;
+  animation: slider-up both 1s ease-in-out;
   animation-timeline: view();
   animation-range-start: 10px;
   animation-range-end: 800px;
@@ -561,7 +561,7 @@ article .icon {
 footer {
   height: 26vh;
   margin: 0 1rem;
-  animation: slider-up 1s ease-in-out;
+  animation: slider-up both 1s ease-in-out;
   animation-timeline: view();
   animation-range-start: 10px;
   animation-range-end: 400px;
