@@ -140,8 +140,9 @@
   }
 
   .item img {
-    width: 46vw;
-    height: 46vw;
+    left: 10px;
+    width: 60vw;
+    height: 60vw;
   }
 
   .section__text__p2 {
