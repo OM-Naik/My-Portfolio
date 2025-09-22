@@ -210,23 +210,24 @@ section {
 
 .circle {
   border-radius: 50%;
-  background-color: rgba(94, 95, 95, 0.508);
-  width: 400px;
-  height: 400px;
+  background-color: rgba(94, 95, 95, 0.29);
+  width: 230px;
+  height: 230px;
   position: absolute;
   opacity: 0;
-  animation: scaleIn both 5s infinite cubic-bezier(.36, .11, .89, .32);
+  /* animation: scaleIn both 5s infinite cubic-bezier(.36, .11, .89, .32); */
+  animation: scaleIn both 5s infinite cubic-bezier(0.41, 0.45, 1, 1)
 }
 
 @keyframes scaleIn {
   from {
     transform: scale(.6, .6);
-    opacity: .5;
+    opacity: 0;
   }
 
   to {
     transform: scale(1.6, 1.6);
-    opacity: 0;
+    opacity: 0.4;
   }
 }
 
