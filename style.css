@@ -400,12 +400,8 @@ section {
   margin: auto 0;
 }
 
-#idea {
-  display: block;
-  text-align: center;
-  font-size: clamp(1rem, 2vw, 1.5rem);
-  margin: 20px auto;
-  font-weight: bold;
+.text-container {
+  text-align: justify;
 }
 
 /* EXPERIENCE SECTION */
